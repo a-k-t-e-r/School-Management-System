@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMouseClicked"/>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanelSearchBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jPanelControls" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jL_status" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanelFundaInfo" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="jPanelFundaInfo" min="-2" pref="380" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanelSearchBox" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanelControls" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="jL_status" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelFundaInfo">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Fundamental Information">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="scrlPAddr" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
+                              <Component id="jTF_EmployeeId" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
+                              <Component id="jC_Position" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
+                              <Component id="jTF_EmployeeName" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
+                              <Component id="scrlPAddr1" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
+                              <Component id="jCB_AddressSame" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Component id="jL_employeePhoto" min="-2" pref="96" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLblDoB" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                                          <Component id="jCB_genderMale" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Component id="jCB_genderFemale" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="jL_gender" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="0" pref="38" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Component id="jP_dateOfBirth" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jC_religion" min="-2" pref="215" max="-2" attributes="0"/>
+                                      <Component id="jC_nationality" min="-2" pref="215" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="3" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="15" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jC_bloodType" min="-2" pref="215" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="scrlEduQua" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
+                              <Component id="scrlOtherQua" alignment="1" min="-2" pref="240" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jT_contactNo" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jT_emergencyContactNo" alignment="0" min="-2" pref="240" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jL_schoolLogo" min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jL_schoolLogo" min="-2" pref="56" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="scrlEduQua" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="scrlOtherQua" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jT_contactNo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jT_emergencyContactNo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTF_EmployeeId" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTF_EmployeeName" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jC_Position" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jL_employeePhoto" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="scrlPAddr" min="-2" pref="63" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLblDoB" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jP_dateOfBirth" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jL_gender" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCB_AddressSame" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jCB_genderMale" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCB_genderFemale" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="20" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jC_bloodType" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jC_nationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jC_religion" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="scrlPAddr1" min="-2" pref="63" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jSeparator1" min="-2" pref="349" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jT_emergencyContactNo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Emergency Contact No"/>
+            <Property name="toolTipText" type="java.lang.String" value="Id/Roll will generate automatically"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jT_emergencyContactNoFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jT_emergencyContactNoFocusLost"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jC_Position">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="13">
+                <StringItem index="0" value="&lt;select position&gt;"/>
+                <StringItem index="1" value="Administrator"/>
+                <StringItem index="2" value="Admissions Assistant"/>
+                <StringItem index="3" value="Admissions Representative"/>
+                <StringItem index="4" value="Accounts Head"/>
+                <StringItem index="5" value="Financial Aid Administrator"/>
+                <StringItem index="6" value="Librarian"/>
+                <StringItem index="7" value="Librarian Assistant"/>
+                <StringItem index="8" value="Food Service Aide"/>
+                <StringItem index="9" value="Food Service Coordinator"/>
+                <StringItem index="10" value="Food Service Manager"/>
+                <StringItem index="11" value="Bus Driver"/>
+                <StringItem index="12" value="Worker"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Select class for the student"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_PositionFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_PositionFocusLost"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTF_EmployeeId">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="Employee Id"/>
+            <Property name="toolTipText" type="java.lang.String" value="Id/Roll will generate automatically"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jL_employeePhoto">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;body&gt;&lt;p style=&quot;text-align:center;&quot;&gt;Employee&lt;br\u005c&gt;Photo&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" containsInvalidXMLChars="true"/>
+            <Property name="toolTipText" type="java.lang.String" value="Select a formal photo"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jL_employeePhotoMouseClicked"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="scrlPAddr1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTA_temporaryAddr">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Console" size="14" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Temporary Address"/>
+                <Property name="toolTipText" type="java.lang.String" value="Parmanent Address"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_temporaryAddrFocusGained"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_temporaryAddrFocusLost"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="scrlPAddr">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTA_parmanentAddr">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Console" size="14" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Parmanent Address"/>
+                <Property name="toolTipText" type="java.lang.String" value="Parmanent Address"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_parmanentAddrFocusGained"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_parmanentAddrFocusLost"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLblDoB">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Date of Birth"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jC_religion">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="21">
+                <StringItem index="0" value="&lt;select religion&gt;"/>
+                <StringItem index="1" value="Islam"/>
+                <StringItem index="2" value="Christianity"/>
+                <StringItem index="3" value="Hinduism"/>
+                <StringItem index="4" value="Buddhism"/>
+                <StringItem index="5" value="Nonreligious"/>
+                <StringItem index="6" value="Chinese traditional religion"/>
+                <StringItem index="7" value="Primal-indigenous"/>
+                <StringItem index="8" value="African traditional and Diasporic"/>
+                <StringItem index="9" value="Sikhism"/>
+                <StringItem index="10" value="Juche"/>
+                <StringItem index="11" value="Spiritism"/>
+                <StringItem index="12" value="Judaism"/>
+                <StringItem index="13" value="Bahai"/>
+                <StringItem index="14" value="Jainism"/>
+                <StringItem index="15" value="Shinto"/>
+                <StringItem index="16" value="Cao Dai"/>
+                <StringItem index="17" value="Zoroastrianism"/>
+                <StringItem index="18" value="Tenrikyo"/>
+                <StringItem index="19" value="Neo-Paganism"/>
+                <StringItem index="20" value="Unitarian-Universalism"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Religion"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_religionFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_religionFocusLost"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jT_contactNo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Contact No"/>
+            <Property name="toolTipText" type="java.lang.String" value="Id/Roll will generate automatically"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jT_contactNoFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jT_contactNoFocusLost"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="scrlEduQua">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTA_eduQualification">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Console" size="14" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Educational Qualification"/>
+                <Property name="toolTipText" type="java.lang.String" value="Parmanent Address"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_eduQualificationFocusGained"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_eduQualificationFocusLost"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="jTF_EmployeeName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="Employee Name"/>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Name of the Employee"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTF_EmployeeNameFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTF_EmployeeNameFocusLost"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jC_nationality">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="195">
+                <StringItem index="0" value="&lt;select nationality&gt;"/>
+                <StringItem index="1" value="Afghan"/>
+                <StringItem index="2" value="Albanian"/>
+                <StringItem index="3" value="Algerian"/>
+                <StringItem index="4" value="American"/>
+                <StringItem index="5" value="Andorran"/>
+                <StringItem index="6" value="Angolan"/>
+                <StringItem index="7" value="Antiguans"/>
+                <StringItem index="8" value="Argentinean"/>
+                <StringItem index="9" value="Armenian"/>
+                <StringItem index="10" value="Australian"/>
+                <StringItem index="11" value="Austrian"/>
+                <StringItem index="12" value="Azerbaijani"/>
+                <StringItem index="13" value="Bahamian"/>
+                <StringItem index="14" value="Bahraini"/>
+                <StringItem index="15" value="Bangladeshi"/>
+                <StringItem index="16" value="Barbadian"/>
+                <StringItem index="17" value="Barbudans"/>
+                <StringItem index="18" value="Batswana"/>
+                <StringItem index="19" value="Belarusian"/>
+                <StringItem index="20" value="Belgian"/>
+                <StringItem index="21" value="Belizean"/>
+                <StringItem index="22" value="Beninese"/>
+                <StringItem index="23" value="Bhutanese"/>
+                <StringItem index="24" value="Bolivian"/>
+                <StringItem index="25" value="Bosnian"/>
+                <StringItem index="26" value="Brazilian"/>
+                <StringItem index="27" value="British"/>
+                <StringItem index="28" value="Bruneian"/>
+                <StringItem index="29" value="Bulgarian"/>
+                <StringItem index="30" value="Burkinabe"/>
+                <StringItem index="31" value="Burmese"/>
+                <StringItem index="32" value="Burundian"/>
+                <StringItem index="33" value="Cambodian"/>
+                <StringItem index="34" value="Cameroonian"/>
+                <StringItem index="35" value="Canadian"/>
+                <StringItem index="36" value="Cape Verdean"/>
+                <StringItem index="37" value="Central African"/>
+                <StringItem index="38" value="Chadian"/>
+                <StringItem index="39" value="Chilean"/>
+                <StringItem index="40" value="Chinese"/>
+                <StringItem index="41" value="Colombian"/>
+                <StringItem index="42" value="Comoran"/>
+                <StringItem index="43" value="Congolese"/>
+                <StringItem index="44" value="Costa Rican"/>
+                <StringItem index="45" value="Croatian"/>
+                <StringItem index="46" value="Cuban"/>
+                <StringItem index="47" value="Cypriot"/>
+                <StringItem index="48" value="Czech"/>
+                <StringItem index="49" value="Danish"/>
+                <StringItem index="50" value="Djibouti"/>
+                <StringItem index="51" value="Dominican"/>
+                <StringItem index="52" value="Dutch"/>
+                <StringItem index="53" value="East Timorese"/>
+                <StringItem index="54" value="Ecuadorean"/>
+                <StringItem index="55" value="Egyptian"/>
+                <StringItem index="56" value="Emirian"/>
+                <StringItem index="57" value="Equatorial Guinean"/>
+                <StringItem index="58" value="Eritrean"/>
+                <StringItem index="59" value="Estonian"/>
+                <StringItem index="60" value="Ethiopian"/>
+                <StringItem index="61" value="Fijian"/>
+                <StringItem index="62" value="Filipino"/>
+                <StringItem index="63" value="Finnish"/>
+                <StringItem index="64" value="French"/>
+                <StringItem index="65" value="Gabonese"/>
+                <StringItem index="66" value="Gambian"/>
+                <StringItem index="67" value="Georgian"/>
+                <StringItem index="68" value="German"/>
+                <StringItem index="69" value="Ghanaian"/>
+                <StringItem index="70" value="Greek"/>
+                <StringItem index="71" value="Grenadian"/>
+                <StringItem index="72" value="Guatemalan"/>
+                <StringItem index="73" value="Guinea-Bissauan"/>
+                <StringItem index="74" value="Guinean"/>
+                <StringItem index="75" value="Guyanese"/>
+                <StringItem index="76" value="Haitian"/>
+                <StringItem index="77" value="Herzegovinian"/>
+                <StringItem index="78" value="Honduran"/>
+                <StringItem index="79" value="Hungarian"/>
+                <StringItem index="80" value="I-Kiribati"/>
+                <StringItem index="81" value="Icelander"/>
+                <StringItem index="82" value="Indian"/>
+                <StringItem index="83" value="Indonesian"/>
+                <StringItem index="84" value="Iranian"/>
+                <StringItem index="85" value="Iraqi"/>
+                <StringItem index="86" value="Irish"/>
+                <StringItem index="87" value="Israeli"/>
+                <StringItem index="88" value="Italian"/>
+                <StringItem index="89" value="Ivorian"/>
+                <StringItem index="90" value="Jamaican"/>
+                <StringItem index="91" value="Japanese"/>
+                <StringItem index="92" value="Jordanian"/>
+                <StringItem index="93" value="Kazakhstani"/>
+                <StringItem index="94" value="Kenyan"/>
+                <StringItem index="95" value="Kittian and Nevisian"/>
+                <StringItem index="96" value="Kuwaiti"/>
+                <StringItem index="97" value="Kyrgyz"/>
+                <StringItem index="98" value="Laotian"/>
+                <StringItem index="99" value="Latvian"/>
+                <StringItem index="100" value="Lebanese"/>
+                <StringItem index="101" value="Liberian"/>
+                <StringItem index="102" value="Libyan"/>
+                <StringItem index="103" value="Liechtensteiner"/>
+                <StringItem index="104" value="Lithuanian"/>
+                <StringItem index="105" value="Luxembourger"/>
+                <StringItem index="106" value="Macedonian"/>
+                <StringItem index="107" value="Malagasy"/>
+                <StringItem index="108" value="Malawian"/>
+                <StringItem index="109" value="Malaysian"/>
+                <StringItem index="110" value="Maldivian"/>
+                <StringItem index="111" value="Malian"/>
+                <StringItem index="112" value="Maltese"/>
+                <StringItem index="113" value="Marshallese"/>
+                <StringItem index="114" value="Mauritanian"/>
+                <StringItem index="115" value="Mauritian"/>
+                <StringItem index="116" value="Mexican"/>
+                <StringItem index="117" value="Micronesian"/>
+                <StringItem index="118" value="Moldovan"/>
+                <StringItem index="119" value="Monacan"/>
+                <StringItem index="120" value="Mongolian"/>
+                <StringItem index="121" value="Moroccan"/>
+                <StringItem index="122" value="Mosotho"/>
+                <StringItem index="123" value="Motswana"/>
+                <StringItem index="124" value="Mozambican"/>
+                <StringItem index="125" value="Namibian"/>
+                <StringItem index="126" value="Nauruan"/>
+                <StringItem index="127" value="Nepalese"/>
+                <StringItem index="128" value="New Zealander"/>
+                <StringItem index="129" value="Ni-Vanuatu"/>
+                <StringItem index="130" value="Nicaraguan"/>
+                <StringItem index="131" value="Nigerian"/>
+                <StringItem index="132" value="Nigerien"/>
+                <StringItem index="133" value="North Korean"/>
+                <StringItem index="134" value="Northern Irish"/>
+                <StringItem index="135" value="Norwegian"/>
+                <StringItem index="136" value="Omani"/>
+                <StringItem index="137" value="Pakistani"/>
+                <StringItem index="138" value="Palauan"/>
+                <StringItem index="139" value="Panamanian"/>
+                <StringItem index="140" value="Papua New Guinean"/>
+                <StringItem index="141" value="Paraguayan"/>
+                <StringItem index="142" value="Peruvian"/>
+                <StringItem index="143" value="Polish"/>
+                <StringItem index="144" value="Portuguese"/>
+                <StringItem index="145" value="Qatari"/>
+                <StringItem index="146" value="Romanian"/>
+                <StringItem index="147" value="Russian"/>
+                <StringItem index="148" value="Rwandan"/>
+                <StringItem index="149" value="Saint Lucian"/>
+                <StringItem index="150" value="Salvadoran"/>
+                <StringItem index="151" value="Samoan"/>
+                <StringItem index="152" value="San Marinese"/>
+                <StringItem index="153" value="Sao Tomean"/>
+                <StringItem index="154" value="Saudi"/>
+                <StringItem index="155" value="Scottish"/>
+                <StringItem index="156" value="Senegalese"/>
+                <StringItem index="157" value="Serbian"/>
+                <StringItem index="158" value="Seychellois"/>
+                <StringItem index="159" value="Sierra Leonean"/>
+                <StringItem index="160" value="Singaporean"/>
+                <StringItem index="161" value="Slovakian"/>
+                <StringItem index="162" value="Slovenian"/>
+                <StringItem index="163" value="Solomon Islander"/>
+                <StringItem index="164" value="Somali"/>
+                <StringItem index="165" value="South African"/>
+                <StringItem index="166" value="South Korean"/>
+                <StringItem index="167" value="Spanish"/>
+                <StringItem index="168" value="Sri Lankan"/>
+                <StringItem index="169" value="Sudanese"/>
+                <StringItem index="170" value="Surinamer"/>
+                <StringItem index="171" value="Swazi"/>
+                <StringItem index="172" value="Swedish"/>
+                <StringItem index="173" value="Swiss"/>
+                <StringItem index="174" value="Syrian"/>
+                <StringItem index="175" value="Taiwanese"/>
+                <StringItem index="176" value="Tajik"/>
+                <StringItem index="177" value="Tanzanian"/>
+                <StringItem index="178" value="Thai"/>
+                <StringItem index="179" value="Togolese"/>
+                <StringItem index="180" value="Tongan"/>
+                <StringItem index="181" value="Trinidadian or Tobagonian"/>
+                <StringItem index="182" value="Tunisian"/>
+                <StringItem index="183" value="Turkish"/>
+                <StringItem index="184" value="Tuvaluan"/>
+                <StringItem index="185" value="Ugandan"/>
+                <StringItem index="186" value="Ukrainian"/>
+                <StringItem index="187" value="Uruguayan"/>
+                <StringItem index="188" value="Uzbekistani"/>
+                <StringItem index="189" value="Venezuelan"/>
+                <StringItem index="190" value="Vietnamese"/>
+                <StringItem index="191" value="Welsh"/>
+                <StringItem index="192" value="Yemenite"/>
+                <StringItem index="193" value="Zambian"/>
+                <StringItem index="194" value="Zimbabwean"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Nationality"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_nationalityFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_nationalityFocusLost"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+            </Property>
+            <Property name="orientation" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="scrlOtherQua">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTA_otherQualification">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Console" size="14" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Other Qualification"/>
+                <Property name="toolTipText" type="java.lang.String" value="Parmanent Address"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_otherQualificationFocusGained"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jTA_otherQualificationFocusLost"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jP_dateOfBirth">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jDC_DateOfBirth" alignment="0" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jDC_DateOfBirth" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDC_DateOfBirth">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Date of Birth"/>
+                <Property name="autoscrolls" type="boolean" value="true"/>
+                <Property name="dateFormatString" type="java.lang.String" value="yyyy-MM-dd"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Console" size="14" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JComboBox" name="jC_bloodType">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="9">
+                <StringItem index="0" value="&lt;select blood type&gt;"/>
+                <StringItem index="1" value="O&#x2212;"/>
+                <StringItem index="2" value="O+"/>
+                <StringItem index="3" value="A&#x2212;"/>
+                <StringItem index="4" value="A+"/>
+                <StringItem index="5" value="B&#x2212;"/>
+                <StringItem index="6" value="B+"/>
+                <StringItem index="7" value="AB&#x2212;"/>
+                <StringItem index="8" value="AB+"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Blood Type"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_bloodTypeFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jC_bloodTypeFocusLost"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jL_schoolLogo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/School Logo Small.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jL_gender">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Gender"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="jCB_genderMale">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" Male"/>
+            <Property name="toolTipText" type="java.lang.String" value="Gender #Male"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCB_genderMaleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="jCB_genderFemale">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" Female"/>
+            <Property name="toolTipText" type="java.lang.String" value="Gender #Female"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCB_genderFemaleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="jCB_AddressSame">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" Same"/>
+            <Property name="toolTipText" type="java.lang.String" value="Gender #Male"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCB_AddressSameActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelControls">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Controls">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder>
+                  <Color PropertyName="color" blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+                </LineBorder>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Controls"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jB_save" min="-2" pref="89" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jB_update" min="-2" pref="89" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jB_delete" min="-2" pref="89" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jB_refresh" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jB_save" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jB_update" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jB_delete" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jB_refresh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jB_update">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Update"/>
+            <Property name="toolTipText" type="java.lang.String" value="Update selected student information"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_updateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jB_save">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Save"/>
+            <Property name="toolTipText" type="java.lang.String" value="Save define student information"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_saveActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jB_refresh">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Refresh"/>
+            <Property name="toolTipText" type="java.lang.String" value="Refresh all elements"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_refreshActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jB_delete">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Delete"/>
+            <Property name="toolTipText" type="java.lang.String" value="Delect selected student information"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_deleteActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanelSearchBox">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Search by Id">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder>
+                  <Color PropertyName="color" blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+                </LineBorder>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jT_searchBox" min="-2" pref="200" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jB_searching" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jT_searchBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jB_searching" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jT_searchBox">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search by Employee Id"/>
+            <Property name="toolTipText" type="java.lang.String" value="Serach by Id or, Name"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jT_searchBoxFocusGained"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jT_searchBoxFocusLost"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jB_searching">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Console" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_searchingActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jL_status">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="2"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Status..."/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
